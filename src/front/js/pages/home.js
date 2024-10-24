@@ -2,7 +2,7 @@ import React, { useContext, useEffect } from "react";
 import { Context } from "../store/appContext";
 import  {useNavigate}  from "react-router-dom";
 
-import logo from "/workspaces/Roller-Coaster-Review-Site-final-project/src/front/img/coaster-critics-logo-black.png"
+import logo from "/workspaces/Coaster-Critics/src/front/img/coaster-critics-logo-black.png"
 
 export const Home = ({adjustFooterHeight}) => {
 	const { store, actions } = useContext(Context);
